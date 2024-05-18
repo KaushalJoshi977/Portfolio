@@ -2,12 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
+import userDetails from "../../Assets/Projects/UserDetails.jpeg";
+import showtime from "../../Assets/Projects/showtime.jpeg";
 import game from "../../Assets/Projects/game.jpeg";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import voting from "../../Assets/Projects/voting.jpeg";
+import stocks from "../../Assets/Projects/stocks.jpeg";
 
 function Projects() {
   return (
@@ -34,59 +33,48 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={stocks}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Stocks App"
+              description="Stocks Values is a Java Spring Boot microservice that allows users to subscribe to stock value changes and receive notifications via email according to their desired frequency (daily, weekly, or monthly). The application integrates with the Alpha Vantage API to fetch real-time stock data, extracts key metrics, and stores them in a local MongoDB instance."
+              ghLink="https://github.com/KaushalJoshi977/StockesApp"
+      
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={showtime}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
+              title="Its_Show_Time"
+              description="Its_Show_Time is a comprehensive Spring Boot backend application designed to manage theatre operations, including booking tickets, managing theatres, movies, and shows. The application features a user-friendly Swagger UI for API interaction and integrates email functionality to send ticket confirmation mails."
+              ghLink="https://github.com/KaushalJoshi977/Its-Show-Time.git"
               demoLink="https://editor.soumya-jit.tech/"              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={userDetails}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="GeoLocation and UserActivity "
+              description="GeoLocation and UserActivity is a Spring Boot application that captures and displays geolocation data, browser details, OS name, and session details of a user. The application leverages Spring WebFlux for reactive programming, and uses HTML and CSS for the frontend. MongoDB is used for storing the user activity data."
+              ghLink="https://github.com/KaushalJoshi977/Geolocation-and-userActivity.git"
+              // demoLink="https://plant49-ai.herokuapp.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={voting}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="Online Voting"
+              description="The Online Voting System is a web-based application developed to facilitate secure and efficient online voting. This project showcases my web development skills using HTML, CSS, MySQL, Java servlets, and JSP. The system includes functionalities for voter and admin login, result checking, feedback collection, and new voter registration, demonstrating my ability to create dynamic and interactive web applications with Java."
+              ghLink="https://github.com/KaushalJoshi977/Webpage"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
-            />
-          </Col>
         </Row>
       </Container>
     </Container>
