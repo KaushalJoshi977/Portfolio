@@ -48,8 +48,7 @@ function Projects() {
               isBlog={false}
               title="Its_Show_Time"
               description="Its_Show_Time is a comprehensive Spring Boot backend application designed to manage theatre operations, including booking tickets, managing theatres, movies, and shows. The application features a user-friendly Swagger UI for API interaction and integrates email functionality to send ticket confirmation mails."
-              ghLink="https://github.com/KaushalJoshi977/Its-Show-Time.git"
-              demoLink="https://editor.soumya-jit.tech/"              
+              ghLink="https://github.com/KaushalJoshi977/Its-Show-Time.git"             
             />
           </Col>
 

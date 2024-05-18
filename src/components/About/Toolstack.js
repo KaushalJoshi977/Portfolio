@@ -4,18 +4,22 @@ import {
   SiVisualstudiocode,
   SiPostman,
   SiSlack,
-  SiVercel,
-  SiMacos,
+  SiIntellijidea,
+  SiWindows,
+  SiEclipseide, // Added SiEclipseide for Eclipse icon
 } from "react-icons/si";
 
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMacos />
+        <SiWindows /> {/* Added Windows icon */}
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiIntellijidea />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostman />
@@ -24,7 +28,7 @@ function Toolstack() {
         <SiSlack />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
+        <SiEclipseide /> {/* Added Eclipse icon */}
       </Col>
     </Row>
   );

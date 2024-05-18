@@ -11,17 +11,19 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Kaushal Joshi </span>
             from <span className="purple"> Dungarpur, Rajasthan, India.</span>
             <br />
-            I am currently employed as a software developer at Juspay.
+            I am currently employed as a Master Trainer at Edunet Foundation.
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            I have completed my B.Tech from <b>Lovely Professional University</b>, Punjab. 
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Gaming
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Anime
             </li>
             <li className="about-activity">
               <ImPointRight /> Music
