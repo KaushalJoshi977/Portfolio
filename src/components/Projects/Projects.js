@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import userDetails from "../../Assets/Projects/UserDetails.jpeg";
 import showtime from "../../Assets/Projects/showtime.jpeg";
-import game from "../../Assets/Projects/game.jpeg";
+import game from "../../Assets/Projects/Ecom.jpg";
 import voting from "../../Assets/Projects/voting.jpeg";
 import stocks from "../../Assets/Projects/stocks.jpeg";
 
@@ -24,10 +24,10 @@ function Projects() {
             <ProjectCard
               imgPath={game}
               isBlog={false}
-              title="SOS Game"
-              description="I developed two classic board games, SOS and Tic Tac Toe, using Java's javax.swing and java.awt libraries. These projects highlight my programming skills and creativity, providing a user-friendly interface and an engaging experience for players."
-              ghLink="https://github.com/KaushalJoshi977/Game"
-              // demoLink="https://chatify-49.web.app/"
+              title="FullStack Ecom Website"
+              description="Developed a responsive and dynamic e-commerce web application using the MERN stack (MongoDB, Express.js, React.js, Node.js). Implemented core features including product listings, user authentication, shopping cart, and checkout flow."
+              ghLink="https://github.com/KaushalJoshi977/Ecom-f"
+               demoLink="https://ecomperfect.netlify.app/"
             />
           </Col>
 
